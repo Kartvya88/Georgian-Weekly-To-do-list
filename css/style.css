@@ -1,0 +1,137 @@
+body {
+  background: linear-gradient(90deg, #001214, #001f29);
+  font-family: monospace;
+  align-items: center;
+  font-family: "Work Sans", sans-serif;
+  margin-top: 15%;
+}
+
+.head1 {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 60px;
+  color: white;
+  position: relative;
+  font-family: monospace;
+  margin-bottom: 1%;
+}
+
+.container {
+  display: grid;
+  font-size: 1.7rem;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+
+#addingItems {
+  font-size: 30px;
+}
+
+#addingItems:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+  transition: ease-in-out;
+}
+
+.text {
+  font-size: 30px;
+}
+
+.container {
+  color: white;
+}
+
+#Todays_task input {
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 15px;
+  border-style: none;
+  transition: background-color 200ms ease-in-out;
+  background: #216c84;
+  margin-bottom: 35px;
+}
+
+#Todays_task input::placeholder {
+  color: white;
+}
+
+#Todays_task button {
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 15px;
+  border-style: none;
+  color: white;
+  background: #093e50;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#Todays_task button:hover {
+  background-color: #43a1d7;
+}
+#Todays_task input:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+#Todays_task input:hover {
+  background-color: #919699;
+}
+
+.listBox {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  font-size: 23px;
+  text-align: left;
+  background: #28697e;
+  margin-top: 5px;
+  font-family: Verdana;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checkedSpan {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  font-size: 23px;
+  text-align: left;
+  background: #28697e;
+  margin-top: 5px;
+  font-family: Verdana;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.deleteItem {
+  justify-content: right;
+  font-size: 20px;
+  border-style: none;
+  background-color: rgba(62, 37, 37, 0.211);
+  color: white;
+  cursor: pointer;
+  width: 120px;
+  height: 2em;
+  border-radius: 15px;
+}
+
+.deleteItem:hover {
+  background-color: red;
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+.listItem {
+  transform: scale(1.5);
+}
+
+.listItem:hover {
+  cursor: pointer;
+  transform: scale(1.7);
+  transition: 0.2s;
+  transition: ease-in-out;
+}
